@@ -3,8 +3,9 @@ import 'dart:async';
 import 'second_screen.dart';
 
 class Splashscreen extends StatefulWidget {
+  const Splashscreen({super.key});
   @override
-  _SplashscreenState createState() => _SplashscreenState();
+  State<Splashscreen> createState() => _SplashscreenState();
 }
 
 class _SplashscreenState extends State<Splashscreen> {
@@ -15,7 +16,7 @@ class _SplashscreenState extends State<Splashscreen> {
   }
 
   startTime() async {
-    var duration = Duration(seconds: 6);
+    var duration = const Duration(seconds: 6);
     return Timer(duration, navigateToDeviceScreen);
   }
 
@@ -25,16 +26,23 @@ class _SplashscreenState extends State<Splashscreen> {
   }
 
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       body: Center(
-        child: Column(
+          child: Column(
+            
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            SizedBox(
-              width: 300,
-              child: Image.asset('lib/assets/Mortar.png', width: 430,),)
-          ],)),
+        children: [
+          SizedBox(
+            width: 300,
+            child: Image.asset(
+              'lib/assets/Mortar.png',
+              width: 430,
+            ),
+          )
+        ],
+      )),
     );
   }
 }
