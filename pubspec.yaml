@@ -1,5 +1,5 @@
-name: myapp
-description: "A new Flutter project."
+name: apfl
+description: "Senior Design App"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.2.6 <4.0.0'
+  sdk: '>=3.0.6 <4.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -33,10 +33,23 @@ dependencies:
   flutter:
     sdk: flutter
 
+  permission_handler: ^11.3.1
+  flutter_bluetooth_serial: 0.4.0
+  flare_flutter: ^3.0.0
+
+  bluetooth_classic:
+    # When depending on this package from a real application you should use:
+    #   bluetooth_classic: ^x.y.z
+    # See https://dart.dev/tools/pub/dependencies#version-constraints
+    # The example app is bundled with the plugin so we use a path dependency on
+    # the parent directory to use the current plugin's version.
+  
+
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  animated_text_kit: ^4.2.2
 
 dev_dependencies:
   flutter_test:
@@ -90,7 +103,12 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
-
+  generate: true
+  fonts:
+  - family: CrimsonText
+    fonts:
+      - asset: fonts/CrimsonText-Regular.ttf
   assets:
-
-    - lib/assets/
+    - assets/1_Firework.jpg
+    - assets/Mortar.png
+    - assets/Night_sky.jpg
