@@ -3,7 +3,7 @@
   <img src="https://github.com/Ragnarokryan/Automated-Posistioning-Firework-Launcher-App/assets/87395094/ec3bd6fa-0d9b-4be3-9c35-4aed7ad22d1b" />
 </p>
 
-Application to control the Automated Positioning Firework Launcher
+Smart phone application that controls the Automated Positioning Firework Launcher.
 
 <p align="center">
   <img src= "https://github.com/Ragnarokryan/Automated-Posistioning-Firework-Launcher-App/assets/87395094/fcfbd1fd-d679-42a3-99aa-90d1fc5af46f" />
