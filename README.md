@@ -10,7 +10,7 @@ Application to control the Automated Positioning Firework Launcher
 </p>
 
 This is an app for Senior Design II that will allow the user to remotely control and fire 
-the pyrotechnic rack from a safe distance.
+the pyrotechnic rack from a safe distance. (Files subject to change due to quality issues)
 
 <p align="center">
   <img src="https://github.com/Ragnarokryan/Automated-Posistioning-Firework-Launcher-App/assets/87395094/d8f51a47-c31a-4324-ad20-758448fe2169" />
