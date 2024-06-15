@@ -1,10 +1,11 @@
+import '../Screens/connection.dart';
 import 'package:flutter/material.dart';
-import 'package:myapp/Screens/second_screen.dart';
 import 'dart:async';
 import 'package:animated_text_kit/animated_text_kit.dart';
 
 class Splashscreen extends StatefulWidget {
   const Splashscreen({super.key});
+
   @override
   State<Splashscreen> createState() => _SplashscreenState();
 }
@@ -22,8 +23,13 @@ class _SplashscreenState extends State<Splashscreen> {
   }
 
   navigateToDeviceScreen() {
+    // Navigate to the next screen without passing BluetoothConnection
     Navigator.pushReplacement(
-        context, MaterialPageRoute(builder: (context) => const BottomNavigationBarExampleApp()));
+      context,
+      MaterialPageRoute(
+        builder: (context) => const BluetoothConnectionPage(),
+      ),
+    );
   }
 
   @override
@@ -36,41 +42,41 @@ class _SplashscreenState extends State<Splashscreen> {
     ];
 
     const colorizeTextStyle = TextStyle(
-      fontSize: 50.0,
-      fontFamily: 'RaleWay',
+      fontSize: 60.0,
+      fontFamily: 'CrimsonText',
     );
 
     return Scaffold(
       body: Stack(
         children: [
           Positioned.fill(
-            child: Image.asset('lib/assets/1_Firework.jpg', fit: BoxFit.cover),
+            child: Image.asset('assets/1_Firework.jpg', fit: BoxFit.cover),
           ),
           Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 SizedBox(
-                  //width: 1000.0,
-                  child: AnimatedTextKit(
-                    animatedTexts: [
-                      ColorizeAnimatedText(
-                        'Automated Positioning Firework Launcher',
-                        textAlign: TextAlign.center,
-                        textStyle: colorizeTextStyle,
-                        colors: colorizeColors,
-                      ),
-                    ],
-                    isRepeatingAnimation: true,
+                  width: 400,
+                  child: DefaultTextStyle(
+                    style: colorizeTextStyle,
+                    child: AnimatedTextKit(
+                      animatedTexts: [
+                        ColorizeAnimatedText(
+                          'Automated Positioning Firework Launcher',
+                          textAlign: TextAlign.center,
+                          colors: colorizeColors,
+                          textStyle: colorizeTextStyle,
+                        ),
+                      ],
+                      isRepeatingAnimation: true,
+                    ),
                   ),
                 ),
                 SizedBox(
-                  width: 300,
-                  child: Image.asset(
-                    'lib/assets/Mortar.png',
-                    width: 430,
-                  ),
-                )
+                  width: 400,
+                  child: Image.asset('assets/Mortar.png', width: 430),
+                ),
               ],
             ),
           ),
