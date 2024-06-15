@@ -5,7 +5,7 @@
 
 Application to control the Automated Positioning Firework Launcher
 
-![Uploading giphy.gif…]()
+![giphy](https://github.com/Ragnarokryan/Automated-Posistioning-Firework-Launcher-App/assets/87395094/fcfbd1fd-d679-42a3-99aa-90d1fc5af46f)
 
 
 <p align="center">
