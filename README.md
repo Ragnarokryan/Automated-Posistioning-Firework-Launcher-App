@@ -17,7 +17,7 @@ the pyrotechnic rack from a safe distance. (Files subject to change due to quali
 </p>
 
 <p align="center">
-  <img src="https://github.com/Ragnarokryan/Automated-Posistioning-Firework-Launcher-App/assets/87395094/68ac4a59-fbaf-4214-a157-a8d44e4ca9b1" />
+  "https://github.com/Ragnarokryan/Automated-Posistioning-Firework-Launcher-App/assets/87395094/68ac4a59-fbaf-4214-a157-a8d44e4ca9b1"
 </p>
 
 <p align="center">
