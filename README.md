@@ -16,9 +16,11 @@ the pyrotechnic rack from a safe distance. (Files subject to change due to quali
   <img src="https://github.com/Ragnarokryan/Automated-Posistioning-Firework-Launcher-App/assets/87395094/d8f51a47-c31a-4324-ad20-758448fe2169" />
 </p>
 
-<p align="center">
-  "https://github.com/Ragnarokryan/Automated-Posistioning-Firework-Launcher-App/assets/87395094/68ac4a59-fbaf-4214-a157-a8d44e4ca9b1"
-</p>
+
+
+https://github.com/Ragnarokryan/Automated-Posistioning-Firework-Launcher-App/assets/87395094/e6ff2bad-ebdd-4006-bc60-58f73d129677
+
+
 
 <p align="center">
   <img src="https://github.com/Ragnarokryan/Automated-Posistioning-Firework-Launcher-App/assets/87395094/a01c04ee-a57c-4a00-a7e3-34d6ce7926f0" />
