@@ -6,20 +6,20 @@
 Smart phone application that controls the Automated Positioning Firework Launcher.
 
 
-  https://github.com/Ragnarokryan/Automated-Posistioning-Firework-Launcher-App/assets/87395094/8cb0530d-b565-4b9f-ae1d-8ae7a2a077b1
+  https://github.com/Ragnarokryan/Automated-Posistioning-Firework-Launcher-App/assets/87395094/b339ad47-1064-4021-a78f-5aaf9cbf33e4
 
 
 This is an app for Senior Design II that will allow the user to remotely control and fire 
 the pyrotechnic rack from a safe distance. (Files subject to change due to quality issues)
 
 
-  https://github.com/Ragnarokryan/Automated-Posistioning-Firework-Launcher-App/assets/87395094/1cf55dc7-0fdb-435c-8df3-7d45599ce9ad
+  https://github.com/Ragnarokryan/Automated-Posistioning-Firework-Launcher-App/assets/87395094/892d45b2-9018-421e-ba23-c5362a4604d6
 
 
   https://github.com/Ragnarokryan/Automated-Posistioning-Firework-Launcher-App/assets/87395094/a91d4dfa-1c5f-4364-a9fa-f1c85d5b6a78
 
 
-  https://github.com/Ragnarokryan/Automated-Posistioning-Firework-Launcher-App/assets/87395094/2590582a-ec6c-4401-9a8c-573bcb819aed
+  https://github.com/Ragnarokryan/Automated-Posistioning-Firework-Launcher-App/assets/87395094/e090cd73-2923-47ed-a663-a8871c04f813
 
 
 System control features and qualities to be updated.
