@@ -8,8 +8,9 @@ This is an app for Senior Design II that will allow the user to remotely control
 the pyrotechnic rack from a safe distance.
 
 https://github.com/Ragnarokryan/Automated-Posistioning-Firework-Launcher-App/assets/87395094/34f92147-a9ff-4c08-bf4f-0fd97a824b58
-The initial screen is the splash screen that presents the user with the name of the project and features a bit of what this application is about with the fireworks and a depiction of the design.
-
+<p align="center">
+  The initial screen is the splash screen that presents the user with the name of the project and features a bit of what this application is about with the fireworks and a depiction of the design.
+</p>
 https://github.com/Ragnarokryan/Automated-Posistioning-Firework-Launcher-App/assets/87395094/034a137c-e113-4f06-8ee4-5d702380a41a
 Connection is established via Bluetooth Classic which is the communication protocol of the HC-05 device used in the design. The application is configured to only progress past this screen once it aquires the device address of the Bluetooth module.
 
