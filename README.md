@@ -23,6 +23,6 @@ https://github.com/Ragnarokryan/Automated-Posistioning-Firework-Launcher-App/ass
 </p>
 
 https://github.com/Ragnarokryan/Automated-Posistioning-Firework-Launcher-App/assets/87395094/f1b173e9-1d1b-4c11-99b5-56ab3d02f40b
-<p align="center">
+<p align="center, left">
   On the following screen navigated by the bottom navigation bar is the ignition screen. This will allow the user to launch their fireworks indivually but only when all angles are set as previously mentioned at     the top of the positioning screen.
 </p>
